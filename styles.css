@@ -185,3 +185,9 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+.categories-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 170px));
+    gap: 1rem;
+    margin-top: 2rem;
+}
