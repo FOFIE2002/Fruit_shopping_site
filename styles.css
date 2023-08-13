@@ -180,7 +180,7 @@ header {
 .heading span{
     color: var(--green-color);
 }
-.categories, .products{
+.categories, .products, .about{
     max-width: 968px;
     margin-left: auto;
     margin-right: auto;
@@ -308,4 +308,18 @@ header {
     color: var(--bg-color);
     padding: 4px 18px;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%,0% 50%, 0 0);
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 15rem;
+    align-items: center;
+}
+.about-text span{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--green-color);
+}
+.about-text p{
+    margin: 0.5rem 0 1rem;
 }
