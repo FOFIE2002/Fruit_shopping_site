@@ -180,7 +180,7 @@ header {
 .heading span{
     color: var(--green-color);
 }
-.categories, .products, .about, .customers{
+.categories, .products, .about, .customers, .footer{
     max-width: 968px;
     margin-left: auto;
     margin-right: auto;
