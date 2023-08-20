@@ -17,6 +17,15 @@
     --text-color: #1a2428;
     --bg-color: #fff;
 }
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background: var(--light-green-color);
+}
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    background: var(--green-color);
+    border-radius: 5rem;
+}
 section{
     padding: 4.5rem 0 1.5rem;
 }
@@ -180,7 +189,7 @@ header {
 .heading span{
     color: var(--green-color);
 }
-.categories, .products, .about, .customers, .footer, .copyright{
+.categories, .products, .about, .customers{
     max-width: 968px;
     margin-left: auto;
     margin-right: auto;
@@ -379,6 +388,8 @@ header {
     margin-top: 2rem;
     background: #fef4ea;
     border-radius: 0.5rem;
+    width: 100%;
+    padding: 30px 0 0 30px;
 }
 .footer-box{
     display: flex;
@@ -435,4 +446,8 @@ header {
 .copyright{
     text-align: center;
     padding: 20px;
+    background: #fef4ea;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 30px 0 0 30px;
 }
